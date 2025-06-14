@@ -8,4 +8,12 @@ function displayCount() {
 function increaseCount () {
     count++;
     displayCount();
+    checkCountValue()
 }
+function checkCountValue() {
+    if (count === 10) {
+      alert("Az Instagram posztod 10 követőt szerzett! Gratulálunk!");
+    } else if (count === 20) {
+      alert("Az Instagram posztod 20 követőt szerzett! Csak így tovább!");
+    }
+  }
