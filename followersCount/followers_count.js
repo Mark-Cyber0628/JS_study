@@ -8,7 +8,7 @@ function displayCount() {
 function increaseCount () {
     count++;
     displayCount();
-    checkCountValue()
+    checkCountValue();
 }
 function checkCountValue() {
     if (count === 10) {
@@ -16,4 +16,8 @@ function checkCountValue() {
     } else if (count === 20) {
       alert("Az Instagram posztod 20 követőt szerzett! Csak így tovább!");
     }
+  }
+  function resetCount() {
+    count = 0;
+    document.getElementById('countDisplay').textContent = count;
   }
