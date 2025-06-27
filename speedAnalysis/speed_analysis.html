@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gyorsasági Teszt Elemzés</title>
+</head>
+<body>
+  <h1>Gyorsírási Elemzés</h1>
+
+    <label for="inputText">Írd be a következő szöveget:</label><br>
+    <textarea id="inputText"  cols="50" rows="5" readonly placeholder="Készülj fel az írásra..."></textarea><br>
+
+    <label for="userInput">A te írásod:</label><br>
+    <textarea id="userInput"  cols="50" rows="5" placeholder="Kezdj el írni, amikor készen állsz"></textarea><br>
+    <button onclick="startTest()">Teszt indítása</button>
+        <button onclick="endTest()" id="btn">Teszt befejezése</button>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
